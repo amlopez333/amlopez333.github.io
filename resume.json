@@ -1,0 +1,273 @@
+{
+  "basics": {
+    "name": "Andrés López Ureña",
+    "label": "Student",
+    "picture": "",
+    "email": "amlopez333@gmail.com",
+    "phone": "+506 89543162",
+    "website": "https://amlopez333.github.io",
+    "summary": "A summary of Andy López...",
+    "location": {
+      "address": "José María Zeledón, Casa Z5",
+      "postalCode": "11801",
+      "city": "Curridabat",
+      "countryCode": "Costa Rica",
+      "region": "San José"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "amlopez333",
+      "url": "https://github.com/amlopez333"
+    },
+    {
+      "network": "Linked In",
+      "username": "amlopez333",
+      "url": "https://cr.linkedin.com/in/andrés-lópez-ureña-79557a124"    
+    }]
+  },
+  "work": [{
+    "company": "UCR METICS",
+    "position": "Intern",
+    "website": "http://portafoliovirtual.ucr.ac.cr/",
+    "startDate": "2017-08",
+    "endDate": "Present",
+    "summary": "San José, Costa Rica",
+    "highlights": [
+      "In charge of developing new inventory system to reduce the number of worksheets from 8 to 1. Developing front-end in React.js",
+      "In charge of testing a module for automatic virtual classroom re-aperture.",
+      "In charge of applying ETL process to old database entries in order to eliminate redundant information.",
+      "In charge of platform and equipment maintenance."
+    ]
+  },
+  {
+    "company": "UCR",
+    "position": "Teaching Assistant for Probabilities and Statistics course",
+    "website": "",
+    "startDate": "2017-08",
+    "endDate": "Present",
+    "summary": "San José, Costa Rica.",
+    "highlights": [
+      "Explain probability and stastistics concepts to students."
+    ]
+  },
+  {
+    "company": "UCR",
+    "position": "Teaching Assistant for Databases I course",
+    "website": "",
+    "startDate": "2017-03",
+    "endDate": "2017-06",
+    "summary": "San Pedro, 2016.",
+    "highlights": [
+      "In charge of basic DBA duties like creating users and databases for the students.",
+      "In charge of grading assignments, quices, and projec documentation.",
+      "Explain database concepts to students.",
+      "Gave a class on designing user interfaces using Windows Forms and C#."
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad de Costa Rica",
+    "area": "Computer Science and Informatics",
+    "studyType": "Bachelor",
+    "startDate": "2014-03",
+    "endDate": "2018-12",
+    "gpa": "8.55 on a 10.0 scale",
+    "courses": [
+        "Privacy and Identity Management Advanced Topics",
+        "Data Structures and Algorithms (CI-1221)",
+        "Data Bases I (CI-1312)",
+        "Data Bases II (CI-1314)",
+        "Discrete Mathematics (MA-0291)",
+        "Calculus I (MA-0293)",
+        "Calculus II (MA-0294)",
+        "Probabilities and Statistics (CI-1352)",
+        "Linear Algebra (MA-0292)",
+        "Introduction to Economics (RP-3301)"
+    ]
+  }],
+  "awards": [{
+    "title": "Awarded Finalist",
+    "date": "2014-11",
+    "awarder": "SUGEVAL",
+    "summary": "Top 8 Finalist in National Stock Market Competition."
+  },
+  {
+    "title": "Awarded Finalist",
+    "date": "2013-11",
+    "awarder": "SUGEVAL",
+    "summary": "Top 10 Finalist in National Stock Market Competition."  
+  }],
+  "publications": [{
+    "name": "MusicLang",
+    "publisher": "Andy López",
+    "releaseDate": "2016-04-19",
+    "website": "https://github.com/amlopez333/musicLang",
+    "summary": "A programming language to write music. Done using PLY. Creates a MusicXML file parseable by any music reading and writing software."
+  },
+  {
+    "name": "Resume Builder",
+    "publisher": "Andy López",
+    "releaseDate": "Ongoing",
+    "website": "https://github.com/amlopez333/resumeBuilder",
+    "summary": "Simple web-app to create a resume using the JSON Resume Schema."
+  }],
+  "skills": [{
+    "name": "Python",
+    "level": "70%",
+    "keywords": [
+      "Programming",
+      "PLY",
+      "PIL",
+      "numpy",
+      "Django",
+      "Mutagen"
+    ]
+  },
+  {
+    "name": "Java",
+    "level": "70%",
+    "keywords": [
+      "programming",
+      "Vaadin",
+      "Spring MVC"
+    ]  
+  },
+  {
+    "name": "Javascript",
+    "level": "65%",
+    "keywords": [
+      "Programming",
+      "jquery,
+      "Reactjs",
+      "expressjs",
+      "node.js"
+    ]
+  },
+  {
+    "name": "HTML",
+    "level": "65%",
+    "keywords": [
+      "Programming",
+      "HTML5"
+    ]
+  },
+  {
+    "name": "CSS",
+    "level": "60%",
+    "keywords": [
+      "Programming"
+    ]
+  },
+  {
+    "name": "C#",
+    "level": "60%",
+    "keywords": [
+      "C#",
+      "Unity3d"
+    ]
+  },
+  {
+    "name": "T-SQL",
+    "level": "60%",
+    "keywords": [
+      "Databases",
+      "SQL Server"
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "level": "20%",
+    "keywords": [
+      "Databases",
+      "nosql"
+    ]
+  },
+  {
+    "name": "Adobe Photoshop",
+    "level": "90%",
+    "keywords": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Adobe Illustrator",
+    "level": "70%",
+    "keywords": [
+      "Tools"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "100%"
+  },
+  {
+    "name": "Spanish",
+    "level": "100%"  
+  }],
+  "interests": [{
+    "name": "Investing",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Stock Market",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Economics",
+    "keywords": [
+    ]  
+  },
+  {
+    "name": "Soccer",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Music",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "UI/UX",
+    "keywords": [
+    ]  
+  },
+  {
+    "name": "Machine Learning",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Data Mining",
+    "keywords": [
+    ]  
+  },
+  {
+    "name": "Philosophy",
+    "keywords": [
+    ]  
+  },
+  {
+    "name": "Entrepreneurship",
+    "keywords": [
+    ]  
+  },
+  {
+    "name": "Psychology",
+    "keywords": [
+    ]
+  }],
+  "references": [{
+    "name": "Elzbieta Malinowski Gadja",
+    "reference": "elzbieta.malinowski@ecci.ucr.ac.cr"
+  },
+  {
+    "name": "Grace Cascante Prada",
+    "reference": "grace.cascante@ucr.ac.cr"
+  },
+  {
+    "name": "Rodrigo Bartels",
+    "reference": "rodrigobartels@gmail.com"
+  }]
+}
