@@ -20,11 +20,13 @@ var SocialMedia = React.createClass({
             <ul className = "social">
                 {this.props.profiles.map(function(profile, index){
                     var icon = mapIcon(profile.network.toLowerCase());
-                    <li key = {index}>
-                        <a href = {profile.url}>
-                            {icon}
-                        </a>
-                    </li>
+                    return(
+                        <li key = {index}>
+                            <a href = {profile.url}>
+                                {icon}
+                            </a>
+                        </li>
+                    )
                 })}
             </ul>
         )

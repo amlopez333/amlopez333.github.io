@@ -135,8 +135,8 @@ var Banner = React.createClass({
                     { className: "responsive-headline" },
                     this.props.basics.name
                 ),
-                React.createElement("hr", null),
                 React.createElement("br", null),
+                React.createElement("hr", null),
                 React.createElement(_SocialMedia2.default, { profiles: this.props.basics.profiles })
             )
         );
@@ -432,7 +432,7 @@ var SocialMedia = React.createClass({
             { className: 'social' },
             this.props.profiles.map(function (profile, index) {
                 var icon = mapIcon(profile.network.toLowerCase());
-                React.createElement(
+                return React.createElement(
                     'li',
                     { key: index },
                     React.createElement(

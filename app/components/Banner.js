@@ -6,8 +6,8 @@ var Banner = React.createClass({
             <div className = "row banner">
                 <div className = "banner-text">
                     <h1 className = "responsive-headline">{this.props.basics.name}</h1>
-                    <hr />
                     <br />
+                    <hr />
                     <SocialMedia profiles = {this.props.basics.profiles}/>
                 </div>
             </div>
