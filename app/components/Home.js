@@ -1,6 +1,8 @@
+'use strict';
 const React = require("react");
 const Navigation = require ("./NavBar");
 const About = require("./About");
+const Scrolldown = require("./Scrolldown");
 var Home = React.createClass({
     getInitialState: function(){
         return {resume: false};
@@ -25,8 +27,9 @@ var Home = React.createClass({
         return(
             <div>
                 <Header>
-                    <NavBar/>
+                    <Navigation />
                     <Banner basics = {this.state.resume.basics}/>
+                    <Scrolldown />
                 </Header>
                 <About basics = {this.state.resume.basics}/>
             </div>

@@ -1,3 +1,4 @@
+'use strict';
 const React = require("react");
 var Header = React.createClass({
     getInitialState: function(){
@@ -25,8 +26,11 @@ var Header = React.createClass({
         return window.addEventListener("resize", this.updateDimensions());
     },
     render: function(){
+        const style = {
+            height: this.state.window.height
+        };
         return(
-            <header id = "home">
+            <header id = "home" style = {style}>
                 {this.props.children}
             </header>
         )
