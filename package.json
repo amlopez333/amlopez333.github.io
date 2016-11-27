@@ -1,0 +1,27 @@
+{
+  "name": "amlopez333.github.io",
+  "private": "true",
+  "description": "Andrés López personal site",
+  "version": "1.0.0",
+  "homepage": "",
+  "author": {
+    "name": "Andrés López",
+    "email": "amlopez333@gmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amlopez333/amlopez333.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/amlopez333/amlopez333.github.io/issues"
+  },
+  "dependencies": {
+   "babel-preset-es2015": "^6.9.0",
+   "babel-preset-react": "^6.5.0",
+   "babelify": "^7.3.0",
+   "browserify": "^13.0.1",
+   "react": "^15.1.0",
+   "react-dom": "^15.1.0"
+ }
+}
