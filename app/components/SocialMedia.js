@@ -1,6 +1,5 @@
 const React = require("react");
-var SocialMedia = React.createClass({
-    mapIcon: function(network){
+function mapIcon(network){
         const socialMedia = network.replace(/ /g, '-');
         console.log(socialMedia.toString());
         switch (socialMedia) {
@@ -13,12 +12,14 @@ var SocialMedia = React.createClass({
                     <i className = {"fa fa-" + socialMedia}></i>
                 );
         }
-    },
+    };
+var SocialMedia = React.createClass({
+    
     render: function(){
        return(
             <ul className = "social">
                 {this.props.profiles.map(function(profile, index){
-                    var icon = this.mapIcon(profile.network.toLowerCase());
+                    var icon = mapIcon(profile.network.toLowerCase());
                     <li key = {index}>
                         <a href = {profile.url}>
                             {icon}

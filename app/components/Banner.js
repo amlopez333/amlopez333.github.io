@@ -1,5 +1,5 @@
 const React = require("react");
-const SocialMedia = require("./SocialMedia")
+import SocialMedia from './SocialMedia';
 var Banner = React.createClass({
     render: function(){
         return(
@@ -14,3 +14,5 @@ var Banner = React.createClass({
         )
     }
 });
+
+export default Banner;

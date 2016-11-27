@@ -1,16 +1,41 @@
 'use strict';
 const React = require("react");
-const Navigation = require ("./NavBar");
-const About = require("./About");
-const Scrolldown = require("./Scrolldown");
+import NavBar from './NavBar';
+import About from './About';
+import ScrollDown from './ScrollDown';
+import Header from './Header';
+import Banner from './Banner';
 var Home = React.createClass({
-    getInitialState: function(){
-        return {resume: false};
+   getInitialState: function(){
+        return {resume: {
+     
+           
+  basics: {
+    name: "",
+    label: "",
+    picture: "",
+    email: "",
+    phone: "",
+    website: "",
+    summary: "",
+    location: {
+      address: "",
+      postalCode: "",
+      city: "",
+      countryCode: "",
+      region: ""
+    },
+    profiles: [{
+      network: "",
+      username: "",
+      url: ""
+    }]
+  }}};
     },
     loadResume: function(){
         $.ajax(
             {   url: this.props.url,
-                dataType: "json",
+                dataType: 'json',
                 success: function(data){
                     this.setState({resume: data});
                 }.bind(this),
@@ -21,15 +46,17 @@ var Home = React.createClass({
         )
     },
     componentDidMount: function(){
+        console.log('monte');
         this.loadResume();
+        
     },
     render: function(){
         return(
             <div>
                 <Header>
-                    <Navigation />
-                    <Banner basics = {this.state.resume.basics}/>
-                    <Scrolldown />
+                    <NavBar />
+                    <Banner basics = {this.state.resume.basics} />
+                    <ScrollDown />
                 </Header>
                 <About basics = {this.state.resume.basics}/>
             </div>

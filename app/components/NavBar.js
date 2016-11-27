@@ -2,7 +2,7 @@ const React = require("react");
 var NavBar = React.createClass({
     render: function(){
         return(
-        <nav id = "nav-wrap">
+        <nav id = "nav-wrap" className = "opaque">
             <a className = "mobile-btn" href = "#nav-wrap" title = "Show navigation">Show navigation</a>
             <a className = "mobile-btn" href = "#" title = "Hide navigation">Hide navigation</a>
             <ul id = "nav" className = "nav">

@@ -12,6 +12,7 @@ var About = React.createClass({
                         <img className = "profile-pic" src = "images/profilepic.png" alt = {this.props.basics.name} />
                     </div>
                 <div className = "nine columns main-col">
+                    <h2>About Me</h2>
                     {summary.map(function(content, index){
                         return (<p key = {index}>{content}</p>);
                         }
@@ -22,10 +23,10 @@ var About = React.createClass({
                             <p className = "address">
                                 <span>{this.props.basics.name}</span>
                                 <br />
-                                <span>{this.props.basics.address}
+                                <span>{this.props.basics.location.address}
                                 <br />
-                                      {this.props.basics.city}, {this.props.basics.region} 
-                                      {this.props.basics.postalCode} {this.props.basics.countryCode}
+                                      {this.props.basics.location.city}, {this.props.basics.location.region} 
+                                      {this.props.basics.location.postalCode} {this.props.basics.location.countryCode}
                                 </span>
                                 <br />
                                 <span>{this.props.basics.phone}</span>
