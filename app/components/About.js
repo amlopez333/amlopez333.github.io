@@ -9,7 +9,7 @@ var About = React.createClass({
                 }
                 <div className = "row">
                     <div className = "three columns">
-                        <img className = "profile-pic" src = "images/profilepic.png" alt = {this.props.basics.name} />
+                        <img className = "profile-pic" src = "public/images/profilepic.jpg" alt = {this.props.basics.name} />
                     </div>
                 <div className = "nine columns main-col">
                     <h2>About Me</h2>
@@ -25,8 +25,7 @@ var About = React.createClass({
                                 <br />
                                 <span>{this.props.basics.location.address}
                                 <br />
-                                      {this.props.basics.location.city}, {this.props.basics.location.region} 
-                                      {this.props.basics.location.postalCode} {this.props.basics.location.countryCode}
+                                      {this.props.basics.location.city}, {this.props.basics.location.region} {this.props.basics.location.postalCode} {this.props.basics.location.countryCode}
                                 </span>
                                 <br />
                                 <span>{this.props.basics.phone}</span>

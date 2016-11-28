@@ -8,7 +8,7 @@ var Banner = React.createClass({
                     <h1 className = "responsive-headline">{this.props.basics.name}</h1>
                     <br />
                     <hr />
-                    <SocialMedia profiles = {this.props.basics.profiles}/>
+                    <SocialMedia profiles = {this.props.basics.profiles} ul_class = 'social'/>
                 </div>
             </div>
         )

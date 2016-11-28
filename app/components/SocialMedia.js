@@ -1,7 +1,6 @@
 const React = require("react");
 function mapIcon(network){
         const socialMedia = network.replace(/ /g, '-');
-        console.log(socialMedia.toString());
         switch (socialMedia) {
             case 'email':
                 return(
@@ -17,7 +16,7 @@ var SocialMedia = React.createClass({
     
     render: function(){
        return(
-            <ul className = "social">
+            <ul className = {this.props.ul_class}>
                 {this.props.profiles.map(function(profile, index){
                     var icon = mapIcon(profile.network.toLowerCase());
                     return(

@@ -27,7 +27,7 @@
     {
       "network": "Email",
       "username": "amlopez333",
-      "url": "amlopez333@gmail.com"
+      "url": "mailto:amlopez333@gmail.com"
     }]
   },
   "work": [{
@@ -102,6 +102,14 @@
     "summary": "Top 10 Finalist in National Stock Market Competition."  
   }],
   "publications": [{
+    "name": "amlopez333.github.io",
+    "publisher": "Andy López",
+    "releaseDate": "2016-11-26",
+    "website": "https://github.com/amlopez333/amlopez333.github.io",
+    "summary": "amlopez333.github.io is a static single-page application developed using React.js. It follows the JSON Resume schema to store a Curriculum Vitae in JSON format."
+  },
+  
+  {
     "name": "MusicLang",
     "publisher": "Andy López",
     "releaseDate": "2016-04-19",
@@ -117,7 +125,7 @@
   }],
   "skills": [{
     "name": "Python",
-    "level": "70%",
+    "level": "70",
     "keywords": [
       "Programming",
       "PLY",
@@ -129,7 +137,7 @@
   },
   {
     "name": "Java",
-    "level": "70%",
+    "level": "70",
     "keywords": [
       "programming",
       "Vaadin",
@@ -138,7 +146,7 @@
   },
   {
     "name": "Javascript",
-    "level": "65%",
+    "level": "65",
     "keywords": [
       "Programming",
       "jquery",
@@ -149,7 +157,7 @@
   },
   {
     "name": "HTML",
-    "level": "65%",
+    "level": "65",
     "keywords": [
       "Programming",
       "HTML5"
@@ -157,22 +165,23 @@
   },
   {
     "name": "CSS",
-    "level": "60%",
+    "level": "60",
     "keywords": [
-      "Programming"
+      "Programming",
+      "CSS3"
     ]
   },
   {
     "name": "C#",
-    "level": "60%",
+    "level": "60",
     "keywords": [
-      "C#",
+      "Programming",
       "Unity3d"
     ]
   },
   {
     "name": "T-SQL",
-    "level": "60%",
+    "level": "60",
     "keywords": [
       "Databases",
       "SQL Server"
@@ -180,7 +189,7 @@
   },
   {
     "name": "MongoDB",
-    "level": "20%",
+    "level": "20",
     "keywords": [
       "Databases",
       "nosql"
@@ -188,25 +197,25 @@
   },
   {
     "name": "Adobe Photoshop",
-    "level": "90%",
+    "level": "90",
     "keywords": [
       "Tools"
     ]
   },
   {
     "name": "Adobe Illustrator",
-    "level": "70%",
+    "level": "70",
     "keywords": [
       "Tools"
     ]
   }],
   "languages": [{
     "name": "English",
-    "level": "100%"
+    "level": "100"
   },
   {
     "name": "Spanish",
-    "level": "100%"  
+    "level": "100"  
   }],
   "interests": [{
     "name": "Investing",
