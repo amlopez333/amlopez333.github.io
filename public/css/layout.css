@@ -339,6 +339,16 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: percentage90 2s ease;
   	-webkit-animation: percentage90 2s ease;
 }
+.percentage80{
+	width: 90%;
+	-moz-animation: percentage90 2s ease;
+  	-webkit-animation: percentage90 2s ease;
+}
+.percentage75{
+	width: 75%;
+	-moz-animation: percentage90 2s ease;
+  	-webkit-animation: percentage90 2s ease;
+}
 .percentage70 {
   	width: 70%;
   	-moz-animation: percentage70 2s ease;
@@ -353,6 +363,11 @@ ul#nav li.current a { color: #F06000; }
   	width: 60%;
   	-moz-animation: percentage60 2s ease;
   	-webkit-animation: percentage60 2s ease;
+}
+.percentage40{
+	width: 40%;
+	-moz-animation: percentage90 2s ease;
+  	-webkit-animation: percentage90 2s ease;
 }
 .percentage20 {
   	width: 20%;
