@@ -46,7 +46,7 @@
   },
   {
     "company": "UCR",
-    "position": "Teaching Assistant for Probabilities and Statistics course",
+    "position": "Teaching Assistant-Probabilities and Statistics",
     "website": "",
     "startDate": "2017-08",
     "endDate": "Present",
@@ -57,7 +57,7 @@
   },
   {
     "company": "UCR",
-    "position": "Teaching Assistant for Databases I course",
+    "position": "Teaching Assistant-Databases I",
     "website": "",
     "startDate": "2017-03",
     "endDate": "2017-06",
@@ -125,7 +125,7 @@
   }],
   "skills": [{
     "name": "Python",
-    "level": "70",
+    "level": "80",
     "keywords": [
       "Programming",
       "PLY",
@@ -137,7 +137,7 @@
   },
   {
     "name": "Java",
-    "level": "70",
+    "level": "80",
     "keywords": [
       "programming",
       "Vaadin",
@@ -146,7 +146,7 @@
   },
   {
     "name": "Javascript",
-    "level": "65",
+    "level": "75",
     "keywords": [
       "Programming",
       "jquery",
@@ -157,7 +157,7 @@
   },
   {
     "name": "HTML",
-    "level": "65",
+    "level": "75",
     "keywords": [
       "Programming",
       "HTML5"
@@ -165,7 +165,7 @@
   },
   {
     "name": "CSS",
-    "level": "60",
+    "level": "70",
     "keywords": [
       "Programming",
       "CSS3"
@@ -189,7 +189,7 @@
   },
   {
     "name": "MongoDB",
-    "level": "20",
+    "level": "40",
     "keywords": [
       "Databases",
       "nosql"
