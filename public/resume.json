@@ -125,7 +125,7 @@
   }],
   "skills": [{
     "name": "Python",
-    "level": "80",
+    "level": "70",
     "keywords": [
       "Programming",
       "PLY",
@@ -137,7 +137,7 @@
   },
   {
     "name": "Java",
-    "level": "80",
+    "level": "70",
     "keywords": [
       "programming",
       "Vaadin",
