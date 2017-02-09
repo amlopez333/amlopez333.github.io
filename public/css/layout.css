@@ -341,13 +341,13 @@ ul#nav li.current a { color: #F06000; }
 }
 .percentage80{
 	width: 80%;
-	-moz-animation: percentage90 2s ease;
-  	-webkit-animation: percentage90 2s ease;
+	-moz-animation: percentage80 2s ease;
+  	-webkit-animation: percentage80 2s ease;
 }
 .percentage75{
 	width: 75%;
-	-moz-animation: percentage90 2s ease;
-  	-webkit-animation: percentage90 2s ease;
+	-moz-animation: percentage75 2s ease;
+  	-webkit-animation: percentage75 2s ease;
 }
 .percentage70 {
   	width: 70%;
@@ -366,8 +366,8 @@ ul#nav li.current a { color: #F06000; }
 }
 .percentage40{
 	width: 40%;
-	-moz-animation: percentage90 2s ease;
-  	-webkit-animation: percentage90 2s ease;
+	-moz-animation: percentage40 2s ease;
+  	-webkit-animation: percentage40 2s ease;
 }
 .percentage20 {
   	width: 20%;
@@ -384,6 +384,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-moz-keyframes percentage80 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes percentage75 {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
 @-moz-keyframes percentage70 {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -395,6 +403,10 @@ ul#nav li.current a { color: #F06000; }
 @-moz-keyframes percentage60 {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-moz-keyframes percentage40 {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes percentage20 {
   0%   { width: 0px;  }
@@ -409,6 +421,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-webkit-keyframes percentage80 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes percentage75 {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
 @-webkit-keyframes percentage70 {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -420,6 +440,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes percentage60 {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes percentage40 {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes percentage20 {
   0%   { width: 0px;  }
