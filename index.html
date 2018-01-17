@@ -1,56 +1,155 @@
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!-->
-<html class="no-js" lang="en"> 
-<!--<![endif]-->
+<html>
 <head>
-    <meta charset="utf-8">
-	<title>Andrés López Ureña</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="apple-touch-icon" sizes="57x57" href="public/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="public/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="public/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="public/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="public/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="public/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="public/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="public/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="public/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="public/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="public/favicon/ms-icon-144x144.png">
-    <meta name="msapplication-square70x70logo" content="public/favicon/mstile-70x70.png"/>
-    <meta name="msapplication-square150x150logo" content="public/favicon/mstile-150x150.png"/>
-    <meta name="msapplication-wide310x150logo" content="public/favicon/mstile-310x150.png"/>
-    <meta name="msapplication-square310x310logo" content="public/favicon/mstile-310x310.png"/>    
-    <meta name="theme-color" content="#ffffff">
-	<!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="public/css/default.css">
-    <link rel="stylesheet" href="public/css/layout.css">
-    <link rel="stylesheet" href="public/css/media-queries.css">
-    <link rel="stylesheet" href="public/css/magnific-popup.css">
-
-    <!-- Script
-    ================================================== -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
+    <title>Andy Lopez!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate.css">
+    <link rel = 'stylesheet' href = 'main.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
 </head>
 <body>
-    <div id = "content">
-        <script src = "public/bundle.js"></script>
+    <div class = 'container-fluid'>
+        <header id = 'home'>
+            <nav class = 'nav navbar fixed-top main-nav navbar-expand-lg navbar-toggleable-md navbar-dark bg-dark'>  
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class = 'nav'>
+                        <li class = 'nav-item'><a class = 'nav-link' href = '#home'>Home</a></li>
+                        <li class = 'nav-item'><a class = 'nav-link' href = '#about'>About</a></li>
+                        <li class = 'nav-item'><a class = 'nav-link' href = '#experience'>Work Experience</a></li>
+                        <li class = 'nav-item'><a class = 'nav-link' href = '#education'>Education</a></li>
+                        <li class = 'nav-item'><a class = 'nav-link' href = '#skills'>Skills</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class = 'banners'>
+            </div>
+            <div class = "jumbotron jumbotron-fluid hero">
+                <div class = "container">
+                    <h1 class = 'display-3 my-title-name animated bounceInDown'>Andrés López Ureña</h1>
+                    <!-- <p class = 'lead my-title-title'>Computer Scientist</p> -->
+                </div>
+            </div>
+        </header>
+        
+        <section id =  'about' class = 'row about'>
+            <div class = 'col-lg-3'>
+                
+                <h2 class = 'section-title revealOnScroll' data-animation = 'bounceInDown'>About Me</h2>
+            </div>
+            <div class = 'col-lg-8 revealOnScroll' data-animation = 'bounceInUp'>    
+                <p>Computer Science graduate from the University of Costa Rica and three time awarded National Stock Market Championship finalist . Looking for opportunities that put my acquired knowledge into practice and leverage my enthusiasm regarding further learning. 
+
+                    I've worked as a full stack developer but I also enjoy anything economics-related. Used my free time to deepen my knowledge on the subject.
+                    
+                    In my free time I enjoy playing guitar. I'm also aspiring to become a Pit Master and win the national BBQ Fest cook-off. If you don't find me doing these activities you'll find me reading about the stock market and entrepreneurship.
+                    
+                    I enjoy sharing knowledge with others, so feel free to share a story or any fun fact with me. I am always looking forward to learning new things.</p>
+
+                    <br/>
+                    <br/>
+                    <h3>Contact Details</h3>
+                    <ul class = 'contactDetails'>
+                        <li>+50689543162</li>
+                        <li>amlopez333@gmail.com</li>
+                    </ul>
+                    
+            </div>
+        </section>
+        
+        <section id = 'experience' class = 'row experience'>
+            <div class = 'col-lg-3'>
+                <h2 class = 'section-title revealOnScroll' data-animation = 'bounceInDown'>Work Experience</h2>
+            </div>
+            <div class = 'col-lg-8 revealOnScroll' data-animation = 'bounceInUp'>
+                <h3>Independent Consultant</h3>
+                <p class = 'basic-info'>Lago y Sarmiento <span class = 'date'>January 2017 - January 2018</span></p>
+                <p>Moodle consultant. Conducted sessions on platform features and usage. 
+                    Provided support on platform infrastructure and applied custom changes to suit needs of customer.
+                </p>
+                <h3>Intern</h3>
+                <p class = 'basic-info'>UCR METICS <span class = 'date'>August 2016 - December 2017</span></p>
+                <p>Platform maintenance, data ETL, module testing, internal tools development.</p>
+                <h3>Teaching Assistant</h3>
+                <p class = 'basic-info'>UCR School of Computer Science <span class = 'date'>March 2015 - December 2017</span></p>
+            </div>
+        </section>
+
+        <section id = 'education' class = "row education">
+            <div class = 'col-lg-3'>
+                <h2 class = 'section-title revealOnScroll' data-animation = 'bounceInDown'>Education</h2>
+                
+            </div>
+            <div class = 'col-lg-6 revealOnScroll' data-animation = 'bounceInUp'>
+                <h3>Universidad de Costa Rica</h3>
+                <p class = 'basic-info'>Bachelor in Computer Science 
+                    <span class = 'date'>March 2014 - December 2017</span> <span>GPA: 8.75</span></p>
+                <h5>Relevant Courses</h5>
+                <ul class = 'hidden courses'>
+                    <li>Web Application Development</li>
+                    <li>Data Warehouses and OLAP</li>
+                    <li>Sound Processing</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Introduction to Economics</li>
+                    <li>Maching Learning for Trading</li>
+                </ul>
+                <br/>
+                <h3>G.E.D</h3>
+                <p class = 'basic-info'>Lincoln School <span class = 'date'>January 1998 - December 2012</span></p>
+            </div>
+        </section>
+
+        <section id = 'skills' class = 'row skill'>
+            <div class = 'col-lg-3'>
+                <h2 class = 'section-title revealOnScroll' data-animation = 'bounceInDown'>Skills</h2>
+            </div>
+            <div class = 'col-lg-6 '>
+                <p class = 'revealOnScroll' data-animation = 'bounceInUp'> I have billingual proficiency in both English and Spanish. I am a native Spanish speaker. 
+                    Regarding my technical skills, I've carried out most of my personal work using Python. 
+                    I've also used SQL quite extensively.
+                </p>
+                <div class = 'bars'>
+                    <ul class = 'skills'>
+                        <li class = 'revealOnScroll' data-animation = 'slideInRight'>
+                            <span class = 'bar-expand percentage100'></span>
+                            <span class = 'skill-name'>English</span>
+                        </li>   
+                        <li class = 'revealOnScroll' data-animation = 'slideInRight'>
+                            <span class = 'bar-expand percentage100'></span>
+                            <span class = 'skill-name'>Spanish</span>
+                        </li>
+                        <li class = 'revealOnScroll' data-animation = 'slideInRight'>
+                            <span class = 'bar-expand percentage80'></span>
+                            <span class = 'skill-name'>Python</span>
+                        </li>
+                        <li>
+                            <span class = 'bar-expand percentage80 revealOnScroll' data-animation = 'slideInRight'></span>
+                            <span class = 'skill-name'>SQL</span>
+                        </li>
+                        <li class = 'revealOnScroll' data-animation = 'slideInRight'>
+                            <span class = 'bar-expand percentage70'></span>
+                            <span class = 'skill-name'>JavaScript</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <footer class = 'row contact' id = 'contact'>
+            <div class = 'col-lg-12'>
+                    
+            </div>
+            
+        </footer>
     </div>
-    <script type="text/javascript" src="public/js/init.js"></script>
-    <script type="text/javascript" src="public/js/modernizr.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src = 'modernizr-custom.js'></script>
+  <script src = 'main.js'></script>
+    <script src = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js'></script>
 </body>
 </html>

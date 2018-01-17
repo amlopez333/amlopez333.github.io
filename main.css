@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo|Josefin+Slab|Vollkorn");
+body {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Arvo', serif;
+  font-family: 'Vollkorn', serif;
+  background-color: #000000;
+  background-image: radial-gradient(black 97%, #AA1111);
+  color: white; }
+
+p {
+  text-align: justify;
+  margin: 0 0 30px 0; }
+
+.main-nav li {
+  display: inline-block;
+  text-align: center; }
+
+.main-nav a {
+  text-decoration: none;
+  color: white; }
+
+.main-nav a:hover {
+  animation: pulseLetters 2s infinite; }
+
+.main-nav ul {
+  text-align: center; }
+
+.my-title-name, .my-title-title {
+  background-color: transparent;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 6rem; }
+
+.banners {
+  background-image: url("https://servehiminthewaiting.files.wordpress.com/2015/03/buring-coals.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: -100;
+  background-blend-mode: difference; }
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: transparent; }
+
+.about {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  background-color: #6E0000;
+  background-image: linear-gradient(0deg, #6E0000 70%, black);
+  vertical-align: middle;
+  min-height: 90vh; }
+
+.experience {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  background-color: #E28131;
+  background-image: linear-gradient(0deg, #1B0000 70%, #6E0000);
+  min-height: 90vh; }
+
+.education {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  background-color: #6E3200;
+  background-image: linear-gradient(0deg, #1B0000 70%, #1B0000);
+  min-height: 90vh; }
+
+.skill {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+  background-color: #1B0C00;
+  background-image: linear-gradient(0deg, #001010 70%, #1B0000);
+  min-height: 90vh; }
+
+.bars, .skills, .courses, .contactDetails {
+  margin-top: 2rem;
+  list-style-type: none; }
+
+ul.contactDetails, ul.courses {
+  margin: 0;
+  padding: 0; }
+
+.bars {
+  width: 95%;
+  float: left;
+  padding: 0;
+  text-align: left; }
+
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+  margin: 0 0 60px 0;
+  padding: 0; }
+
+.bars ul {
+  margin: 0;
+  padding: 0; }
+
+.skill-name {
+  position: relative;
+  top: -36px; }
+
+.percentage100.animate {
+  width: 100%;
+  -moz-animation: percentage100 2s ease;
+  -webkit-animation: percentage100 2s ease;
+  animation: pulse 5s infinite, percentage100 5s ease-out; }
+
+.percentage80.animate {
+  width: 80%;
+  -moz-animation: percentage80 2s ease;
+  -webkit-animation: percentage800 2s ease;
+  animation: pulse 5s infinite, percentage80 5s ease-out; }
+
+.percentage70.animate {
+  width: 70%;
+  -moz-animation: percentage70 2s ease;
+  -webkit-animation: percentage70 2s ease;
+  animation: pulse 5s infinite, percentage70 5s ease-out; }
+
+.bar-expand {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  color: blue;
+  background-image: linear-gradient(90deg, transparent, #1E8888 97%);
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 3px 0px 0px 3px; }
+
+@keyframes percentage100 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+
+@keyframes percentage80 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 80%; } }
+
+@keyframes percentage70 {
+  0% {
+    width: 0%; }
+  100% {
+    width: 70%; } }
+
+@keyframes pulse {
+  0% {
+    background-color: #AA1111; }
+  50% {
+    background-color: #FFAC66; }
+  80% {
+    background-color: #FF6666; }
+  100% {
+    background-color: #AA1111; } }
+
+@keyframes pulseLetters {
+  0% {
+    color: #AA1111; }
+  25% {
+    color: #FFAC66; }
+  50% {
+    color: #0E880E; }
+  75% {
+    color: #FF6666; }
+  100% {
+    color: #AA1111; } }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center; }
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none; }

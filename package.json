@@ -1,27 +1,25 @@
 {
-  "name": "amlopez333.github.io",
-  "private": "true",
-  "description": "Andrés López personal site",
+  "name": "sass",
   "version": "1.0.0",
-  "homepage": "",
-  "author": {
-    "name": "Andrés López",
-    "email": "amlopez333@gmail.com",
-    "url": ""
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w ./sass/*.scss main.css",
+    "autoprefixer": "node-sass ./sass/*.scss main.css && postcss *.css --use autoprefixer -o main.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amlopez333/amlopez333.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/amlopez333/amlopez333.github.io/issues"
-  },
-  "dependencies": {
-   "babel-preset-es2015": "^6.9.0",
-   "babel-preset-react": "^6.5.0",
-   "babelify": "^7.3.0",
-   "browserify": "^13.0.1",
-   "react": "^15.1.0",
-   "react-dom": "^15.1.0"
- }
+  "keywords": [
+    "sass",
+    "node",
+    "npm",
+    "awesome"
+  ],
+  "author": "Andy Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.16",
+    "postcss-cli": "^4.1.1"
+  }
 }
