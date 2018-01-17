@@ -27,7 +27,7 @@ body{
     font-family: 'Arvo', serif;
     font-family: 'Vollkorn', serif;
     background-color: #000000;
-    background-image: radial-gradient(black 97%, $color-primary-0);
+    //background-image: radial-gradient(black 97%, $color-primary-0);
     color: white
 }
 
@@ -63,6 +63,12 @@ p{
 
 .main-nav ul{
     text-align: center;
+}
+
+.footer-nav li{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
 }
 
 //Banner
@@ -138,7 +144,7 @@ p{
     padding-bottom: 4rem;
     overflow: hidden;
     background-color: $color-secondary-1-4;
-    background-image: linear-gradient(0deg, $color-secondary-2-4 70%, $color-primary-4 );
+    background-image: linear-gradient(0deg, black 10%, $color-secondary-2-4 70%, $color-primary-4);
     min-height: 90vh;
 }
 .bars , .skills, .courses, .contactDetails {

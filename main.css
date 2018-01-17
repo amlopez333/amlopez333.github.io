@@ -4,7 +4,6 @@ body {
   font-family: 'Arvo', serif;
   font-family: 'Vollkorn', serif;
   background-color: #000000;
-  background-image: radial-gradient(black 97%, #AA1111);
   color: white; }
 
 p {
@@ -24,6 +23,11 @@ p {
 
 .main-nav ul {
   text-align: center; }
+
+.footer-nav li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none; }
 
 .my-title-name, .my-title-title {
   background-color: transparent;
@@ -81,7 +85,7 @@ p {
   padding-bottom: 4rem;
   overflow: hidden;
   background-color: #1B0C00;
-  background-image: linear-gradient(0deg, #001010 70%, #1B0000);
+  background-image: linear-gradient(0deg, black 10%, #001010 70%, #1B0000);
   min-height: 90vh; }
 
 .bars, .skills, .courses, .contactDetails {
